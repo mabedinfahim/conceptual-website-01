@@ -1,0 +1,102 @@
+:root{
+    --primary:#2937f0;
+    --secondary: #9f1ae2;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.2rem;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #2937f0;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-size: 700;
+}
+
+nav{
+    overflow-x: hidden;
+}
+
+.navbar-brand{
+    color: rgb(#2937f0,#9f1ae2,0);
+    font-size: 2rem !important;
+}
+
+.navbar-nav:hover .nav-link{
+    color: rgb(#2937f0,#9f1ae2,0) !important;
+}
+
+.backgraound-gredient-color{
+    background-image: linear-gradient(#2937f0,#9f1ae2);
+}
+
+.bennar-section{
+    overflow-x: hidden;
+}
+
+.rotatedme{
+    animation: rotation 8s infinite linear alternate-reverse;
+}
+
+@keyframes rotation {
+    from {
+            transform: rotate(-30deg);
+    }
+    to {
+            transform: rotate(30deg);
+    }
+}
+
+
+.section-two{
+   background-image: linear-gradient(#2937f0,#9f1ae2);
+   vertical-align: middle;
+}
+
+.section-three{
+    overflow-x: hidden;
+}
+
+.section-three i{
+    font-size: 3rem;
+    color: #fff;
+    /* width: 5rem;
+    height: 5rem; */
+    padding: 1rem;
+    background-image: linear-gradient(#2937f0,#9f1ae2);
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+
+
+.section-five{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.section-six{
+    background-image: linear-gradient(#2937f0,#9f1ae2);
+}
